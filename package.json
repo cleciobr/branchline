@@ -1,0 +1,22 @@
+{
+  "name": "branchline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleciobr/branchline.git"
+  },
+  "author": "clecio lins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleciobr/branchline/issues"
+  },
+  "homepage": "https://github.com/cleciobr/branchline#readme"
+}
