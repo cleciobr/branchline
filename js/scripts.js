@@ -65,7 +65,7 @@ $(document).ready(function () {
 
 // Filtrar tabela
 $(document).ready(function(){
-  $("#inputProcura").on("keyup", function() {
+  $("#inputBuscar").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#tableRamais tbody tr").filter(function() {
 		$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)

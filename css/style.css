@@ -5,17 +5,20 @@
 }
 
 	h3{
-		color: #488d3a;
+		color: rgb(120, 187, 120);
+		font-style:italic;
 	}
 
-.bg-dark {
-	background-color: #3c3f42;
-	color: white
+.bg-white {
+	background-color: #ffffff;
+	color: white;
+	border-radius: 1rem;
+	border:solid #a3d3a756;
 }
 
-.bg-withe {
-	background-color: #95f881;
-	color: rgb(136, 122, 122)
+.bg-dark {
+	background-color: #2c2c2c;
+	color: white
 }
 
 .div-menu {
@@ -42,19 +45,24 @@ table.dataTable thead .sorting_desc_disabled:before {
 }
 
 .table-striped tbody tr.highlight:nth-child(odd) td {
-    background-color: rgba(165, 239, 135, 1);
+    background-color: rgb(167, 238, 139);
 	/*font-weight: bold;*/
 }
 
 .table-striped tbody tr.highlight:nth-child(even) td {
-    background-color: rgba(165, 239, 135, 0.5);
+    background-color: rgba(158, 218, 134, 0.5);
 	/*font-weight: bold;*/
 }
 
-.thead-dark {
-	background-color: rgba(60, 63, 66, 1);
+.thead-green {
+	background-color: rgb(120, 187, 120);
 	color: #fff;
-	border-color: #32383e;
+}
+
+.footer {
+	background-color: rgb(120, 187, 120);
+	color: #fff;
+  width: 100%;           
 }
 
 .tfoot-dark {
@@ -63,14 +71,15 @@ table.dataTable thead .sorting_desc_disabled:before {
 	border-color: #32383e;
 }
 
-#inputProcura {
+#inputBuscar {
 	background-image: url('../img/searchicon.png'); /* Add a search icon to input */
-	background-position: 10px 12px; /* Position the search icon */
+	background-position: 8px 6px; /* Position the search icon */
 	background-repeat: no-repeat; /* Do not repeat the icon image */
-	width: 80%; /* Full-width */
-	font-size: 14px; /* Increase font-size */
-	padding: 12px 20px 12px 40px; /* Add some padding */
+	width: 70%; /* Full-width */
+	height: 2rem;
+	font-size: 12px; /* Increase font-size */
+	padding: 14px 20px 12px 40px; /* Add some padding */
 	border: 1px solid #ddd; /* Add a grey border */
 	border-radius: 2rem;
-	/*margin-bottom: 12px; /* Add some space below the input */
+	/* margin-bottom: 12px; /* Add some space below the input */
 }
